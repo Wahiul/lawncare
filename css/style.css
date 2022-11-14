@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.LawnCare{
+    font-size: 35px;
+    font-weight: 900;
+}
+.LawnCare span{
+    color: #4E9525;
+}
+.btn_search{
+    background: #4E9525;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 23px;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    height: 33px;
+    border-bottom: 2px solid #5C9F24;
+    color: #4E9525;
+}
+/* banner part */
+.banner_section{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+.banner_section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #2D3950;
+    opacity: .4;
+    z-index: -1;
+}
+.banner_content h6{
+    font-size: 15px;
+    color: #fbd341;
+    font-weight: 800;
+}
+.banner_content h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.banner_content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+.banner_content span{
+    color: #4E9525;
+}
+.banner_item{
+    min-height: 80vh;
+    align-items: center;
+}
+/* services part */
+.care{
+    width: 62px;
+}
+.service_item{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.service_item h5{
+    font-weight: 600;
+}
+.service_item p{
+    color: #808084;
+}
+.service_item_1 h6{
+    color: #4E9525;
+    font-weight: 700;
+}
+.service_item img{
+    box-shadow: 2px 2px 6px #4E9525;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+.service_item_1 h2{
+    font-weight: 800;
+    color: #333333;
+}
+.service_item_1 p{
+    color: #808084;
+}
+/* welcome part */
+.welcome_section{
+    background: #F8F9FA;
+}
+.welcome_text h6{
+    color: #4E9525;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.welcome_text h2{
+    font-weight: 700;
+    color: #333333;
+}
+.welcome_text p{
+    color: #808084;
+    letter-spacing: 1px;
+}
+.shawod_item h5{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px 10px;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .4s all ease;
+}
+.shawod_item h5:hover{
+    background: #4E9525;
+    color: #fff;
+}
+.image_part{
+    position: relative;
+    cursor: pointer;
+}
+.image_part::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: #4E9525;
+    opacity: .5;
+    transition: .7s all ease;
+}
+.image_part:hover::before{
+    width: 100%;
+}
+/* season part */
+.icon_slide a{
+    color: #4E9525;
+    font-size: 20px;
+}
+.icon_slide i{
+    margin-left: 20px;
+}
+.image_part p{
+    color: #808084;
+}
+/* contact part */
+.contact_section{
+    background-image: url(../images/lake-5534341_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    background-attachment: fixed;
+}
+.contact_section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #2D3950;
+    opacity: .6;
+    z-index: -1;
+}
+.text_contact{
+    align-items: center;
+}
+.text_one{
+    color: #fff;
+}
+.contact_section .contact{
+    color: #fbd341;
+}
+
+.book{
+    width: 327px;
+}
+.client h5{
+    color: #4E9525;
+}
+/* blog part */
+.blog_section{
+    background: #F8F9FA;
+}
+.blog_content{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+/* email part */
+.email_section{
+    background: #1e4e03;
+}
+/* footer part */
+.footer{
+    background-image: url(../images/lake-5534341_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #2D3950;
+    opacity: .8;
+    z-index: -1;
+}
+.business h6{
+    color: #4E9525;
+}
+.social a i{
+    color: #4E9525;
+    font-size: 20px;
+}
